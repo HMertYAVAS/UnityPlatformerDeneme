@@ -41,6 +41,7 @@ public class RubyController : MonoBehaviour
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+        Cursor.visible = false;
     }
 
 
@@ -101,6 +102,9 @@ public class RubyController : MonoBehaviour
             }
         }
         }
+
+        
+
 
     }
     
